@@ -1,5 +1,15 @@
 # Time Series
 
+## Courses
+
+- [Time Series Forecasting](https://www.udacity.com/course/time-series-forecasting--ud980), Udacity
+  > The Time Series Forecasting course provides students with the foundational knowledge to build and apply time series forecasting models in a variety of business contexts 
+- [Методы анализа и прогнозирования временных рядов](https://openedu.ru/course/urfu/METHODS/)
+
+## Books
+
+- [Analysis of Financial Time Series](https://www.amazon.com/Analysis-Financial-Time-Ruey-Tsay/dp/0470414359/) by Ruey S. Tsay
+
 ## YouTube 
 
 - [Time Series Analysis](https://www.youtube.com/playlist?list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3) playlist
@@ -16,7 +26,7 @@
 
 - [An overview of time series forecasting models](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb)
   > We describe 10 forecasting models and we apply them to predict the evolution of an industrial production index 
-- []()
+- [21 Great Articles and Tutorials on Time Series](https://www.datasciencecentral.com/profiles/blogs/21-great-articles-and-tutorials-on-time-series?utm_content=bufferfc0a4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
 - []()
 - []()
 
