@@ -8,6 +8,8 @@
 
 ## Books
 
+- [Forecasting: Principles and Practice](https://otexts.com/fpp2/#) **(3rd ed)** by Rob J Hyndman and George Athanasopoulos, Monash University, Australia
+  > This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
 - [Analysis of Financial Time Series](https://www.amazon.com/Analysis-Financial-Time-Ruey-Tsay/dp/0470414359/) by Ruey S. Tsay
 
 ## YouTube 
@@ -16,8 +18,6 @@
 
 ## Blogs
 
-- [Forecasting: Principles and Practice](https://otexts.com/fpp2/#) by Rob J Hyndman and George Athanasopoulos, Monash University, Australia
-  > This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
 - []()
 - []()
 - []()
