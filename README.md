@@ -1,4 +1,4 @@
-# Time Series
+<img src="https://github.com/ElizaLo/Time-Series/blob/main/header.png" width="900" height="100">
 
 ## Courses
 
