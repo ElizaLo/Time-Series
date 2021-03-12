@@ -10,6 +10,8 @@
 
 - [Forecasting: Principles and Practice](https://otexts.com/fpp2/#) **(3rd ed)** by Rob J Hyndman and George Athanasopoulos, Monash University, Australia
   > This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
+- [Practical Time Series Analysis: Prediction with Statistics and Machine Learning](https://www.amazon.com/Practical-Time-Analysis-Prediction-Statistics/dp/1492041653) by Aileen Nielsen
+- [Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/) by Jason Brownlee
 - [Analysis of Financial Time Series](https://www.amazon.com/Analysis-Financial-Time-Ruey-Tsay/dp/0470414359/) by Ruey S. Tsay
 
 ## YouTube 
