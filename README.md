@@ -34,6 +34,12 @@
 
 ## Useful tools
 
+### Frameworks
+
+- [Kats](https://facebookresearch.github.io/Kats/)
+  > Kats is a toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis. Time series analysis is an essential component of Data Science and Engineering work at industry, from understanding the key statistics and characteristics, detecting regressions and anomalies, to forecasting future trends. Kats aims to provide the one-stop shop for time series analysis, including detection, forecasting, feature extraction/embedding, multivariate analysis, etc. Kats is released by Facebook's Infrastructure Data Science team. It is available for download on [PyPI](https://pypi.org/project/kats/).
+- 
+
 ### Modules for Python
 
 - [Prophet](https://facebook.github.io/prophet/)
