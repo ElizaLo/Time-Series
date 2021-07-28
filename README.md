@@ -36,14 +36,10 @@
 
 ### Frameworks
 
-- [Kats](https://facebookresearch.github.io/Kats/)
-  > Kats is a toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis. Time series analysis is an essential component of Data Science and Engineering work at industry, from understanding the key statistics and characteristics, detecting regressions and anomalies, to forecasting future trends. Kats aims to provide the one-stop shop for time series analysis, including detection, forecasting, feature extraction/embedding, multivariate analysis, etc. Kats is released by Facebook's Infrastructure Data Science team. It is available for download on [PyPI](https://pypi.org/project/kats/).
-- 
+| Title | Description |
+| :---:         |          :--- |
+|[Kats](https://facebookresearch.github.io/Kats/) by Facebook|Kats is a toolkit to analyze time series data, a lightweight, easy-to-use, and generalizable framework to perform time series analysis. Time series analysis is an essential component of Data Science and Engineering work at industry, from understanding the key statistics and characteristics, detecting regressions and anomalies, to forecasting future trends. Kats aims to provide the one-stop shop for time series analysis, including detection, forecasting, feature extraction/embedding, multivariate analysis, etc. Kats is released by Facebook's Infrastructure Data Science team. It is available for download on [PyPI](https://pypi.org/project/kats/).|
+|[Prophet](https://facebook.github.io/prophet/) by Facebook|Prophet is a forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts. Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI|
+|[Orbit](https://eng.uber.com/orbit/) by Uber| |
+|[statsmodels](https://www.statsmodels.org/stable/index.html)| statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. An extensive list of result statistics are available for each estimator. The results are tested against existing statistical packages to ensure that they are correct. The package is released under the open source Modified BSD (3-clause) license. The online documentation is hosted at statsmodels.org.|
 
-### Modules for Python
-
-- [Prophet](https://facebook.github.io/prophet/)
-  > Prophet is a forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts. Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI. 
-- [statsmodels](https://www.statsmodels.org/stable/index.html)
-  > statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. An extensive list of result statistics are available for each estimator. The results are tested against existing statistical packages to ensure that they are correct. The package is released under the open source Modified BSD (3-clause) license. The online documentation is hosted at statsmodels.org. 
-- 
