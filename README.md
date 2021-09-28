@@ -13,6 +13,8 @@
 - [Practical Time Series Analysis: Prediction with Statistics and Machine Learning](https://www.amazon.com/Practical-Time-Analysis-Prediction-Statistics/dp/1492041653) by Aileen Nielsen
 - [Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/) by Jason Brownlee
 - [Analysis of Financial Time Series](https://www.amazon.com/Analysis-Financial-Time-Ruey-Tsay/dp/0470414359/) by Ruey S. Tsay
+- [Economic Forecasting](https://press.princeton.edu/books/hardcover/9780691140131/economic-forecasting) by Graham Elliott and Allan Timmermann, 2016
+- [Forecasting Economic Time Series](https://www.amazon.com/Forecasting-Economic-ECONOMETRICS-MATHEMATICAL-ECONOMICS-ebook/dp/B01DY7LSWO) (ECONOMIC THEORY, ECONOMETRICS, AND MATHEMATICAL ECONOMICS) by C. W. J. Granger, 1986
 
 ## YouTube 
 
