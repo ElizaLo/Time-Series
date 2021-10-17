@@ -53,3 +53,14 @@
 | Title | Description |
 | :---:         |          :--- |
 |[awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)|This curated list contains python packages for time series analysis|
+
+## Podcasts 🎧
+
+| Title | Description |
+| :---:         |          :--- |
+|[Data Skeptic](https://podcasts.apple.com/ua/podcast/data-skeptic/id890348705)|Episode - [Forecasting Principles and Practice](https://podcasts.apple.com/ua/podcast/forecasting-principles-and-practice/id890348705?i=1000522928916)|
+|[Seriously Social](https://podcasts.apple.com/ua/podcast/seriously-social/id1509419418)|Episode - [Forecasting the future: the science of prediction](https://podcasts.apple.com/ua/podcast/forecasting-the-future-the-science-of-prediction/id1509419418?i=1000516647970) |
+|[The Curious Quant](https://podcasts.apple.com/ua/podcast/the-curious-quant/id1481550488)|Episode - [Forecasting COVID, time series, and why causality doesnt matter as much as you think‪](https://podcasts.apple.com/ua/podcast/ep20-prof-rob-hyndman-forecasting-covid-time-series/id1481550488?i=1000485268452)|
+|[Forecasting Impact](https://podcasts.apple.com/ua/podcast/forecasting-impact/id1550584556)||
+|[The Random Sample](https://podcasts.apple.com/ua/podcast/the-random-sample/id1439750898)|Episode - [Forecasting the future & the future of forecasting](https://podcasts.apple.com/ua/podcast/forecasting-the-future-the-future-of-forecasting/id1439750898?i=1000475866199) |
+|[Thought Capital](https://podcasts.apple.com/ua/podcast/thought-capital/id1434491776)|Episode - [Forecasts are always wrong (but we need them anyway)](https://podcasts.apple.com/ua/podcast/forecasts-are-always-wrong-but-we-need-them-anyway/id1434491776?i=1000452853638)|
