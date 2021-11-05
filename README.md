@@ -26,7 +26,7 @@
 - []()
 - []()
 
-## Useful Articles
+## Articles
 
 - [An overview of time series forecasting models](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb)
   > We describe 10 forecasting models and we apply them to predict the evolution of an industrial production index 
@@ -34,7 +34,11 @@
 - []()
 - []()
 
-## Useful tools
+### Topic specific
+
+- [Difference between **estimation** and **prediction**?](https://stats.stackexchange.com/questions/17773/what-is-the-difference-between-estimation-and-prediction)
+
+## Tools
 
 ### Frameworks
 
