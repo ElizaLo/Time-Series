@@ -1,12 +1,18 @@
 <img src="https://github.com/ElizaLo/Time-Series/blob/main/header.png" width="900" height="100">
 
+## University courses 👩‍🎓
+
+| Title | Description |
+| :---:         |          :--- |
+|[MIT 18.S096 Topics in Mathematics w Applications in Finance](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)|<ul><p>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</p><li>[Video lectures](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)</li></ul>|
+
 ## Courses
 
 - [Time Series Forecasting](https://www.udacity.com/course/time-series-forecasting--ud980), Udacity
   > The Time Series Forecasting course provides students with the foundational knowledge to build and apply time series forecasting models in a variety of business contexts 
 - [Методы анализа и прогнозирования временных рядов](https://openedu.ru/course/urfu/METHODS/)
 
-## Books
+## Books 📚
 
 - [Forecasting: Principles and Practice](https://otexts.com/fpp2/#) **(3rd ed)** by Rob J Hyndman and George Athanasopoulos, Monash University, Australia
   > This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
