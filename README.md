@@ -37,8 +37,8 @@
 - [An overview of time series forecasting models](https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb)
   > We describe 10 forecasting models and we apply them to predict the evolution of an industrial production index 
 - [21 Great Articles and Tutorials on Time Series](https://www.datasciencecentral.com/profiles/blogs/21-great-articles-and-tutorials-on-time-series?utm_content=bufferfc0a4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
-- []()
-- []()
+- [Introduction to the Fundamentals of Time Series Data and Analysis](https://www.aptech.com/blog/introduction-to-the-fundamentals-of-time-series-data-and-analysis/)
+- [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
 
 ### Topic specific
 
@@ -57,6 +57,10 @@
 |[statsmodels](https://www.statsmodels.org/stable/index.html)| statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. An extensive list of result statistics are available for each estimator. The results are tested against existing statistical packages to ensure that they are correct. The package is released under the open source Modified BSD (3-clause) license. The online documentation is hosted at statsmodels.org.|
 |[Merlion](https://opensource.salesforce.com/Merlion/v1.0.0/index.html)|Merlion is a Python library for time series intelligence. It features a unified interface for many commonly used models and datasets for anomaly detection and forecasting on both univariate and multivariate time series, along with standard pre-processing and post-processing layers. It has several modules to improve ease-of-use, including visualization, anomaly score calibration to improve interpetability, AutoML for hyperparameter tuning and model selection, and model ensembling. Merlion also provides a unique evaluation framework that simulates the live deployment and re-training of a model in production. This library aims to provide engineers and researchers a one-stop solution to rapidly develop models for their specific time series needs, and benchmark them across multiple time series datasets.|
 |[Auto_TS: Auto_TimeSeries](https://github.com/AutoViML/Auto_TS)|Automatically build ARIMA, SARIMAX, VAR, FB Prophet and XGBoost Models on Time Series data sets with a Single Line of Code. Now updated with Dask to handle millions of rows.|
+|[TensorFlow Probability](https://www.tensorflow.org/probability)|TensorFlow Probability (TFP) is a Python library built on TensorFlow that makes it easy to combine probabilistic models and deep learning on modern hardware (TPU, GPU). It's for data scientists, statisticians, ML researchers, and practitioners who want to encode domain knowledge to understand data and make predictions.|
+|[Pyro](https://pyro.ai)|Deep Universal Probabilistic Programming|
+|[ArviZ: Exploratory analysis of Bayesian models](https://arviz-devs.github.io/arviz/#)|ArviZ is a Python package for exploratory analysis of Bayesian models. Includes functions for posterior analysis, data storage, sample diagnostics, model checking, and comparison.|
+|[PyStan](https://pystan.readthedocs.io/en/latest/)|PyStan is a Python interface to Stan, a package for Bayesian inference.|
 
 ## GitHub Repositories :octocat:
 
