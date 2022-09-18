@@ -41,9 +41,20 @@
 - [Introduction to the Fundamentals of Time Series Data and Analysis](https://www.aptech.com/blog/introduction-to-the-fundamentals-of-time-series-data-and-analysis/)
 - [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
 
+### Small Time Series Dataset
+
+- [Making predictions on a very small time series dataset](https://medium.com/@amit.arora15/making-predictions-using-a-very-small-dataset-230dd579dca8)
+- [Forecasting very short time series](https://otexts.com/fpp2/long-short-ts.html)
+
 ### Topic specific
 
 - [Difference between **estimation** and **prediction**?](https://stats.stackexchange.com/questions/17773/what-is-the-difference-between-estimation-and-prediction)
+
+## Models, Algorithms
+
+| Title | Description, key points, related links |
+| :---:         |          :--- |
+|**MEAN**|<ul><li>[Is it unusual for the MEAN to outperform ARIMA?](https://stats.stackexchange.com/questions/124955/is-it-unusual-for-the-mean-to-outperform-arima)</li><li>[]()</li><li>[]()</li><li>[]()</li></ul>|
 
 ## Tools
 
@@ -62,6 +73,8 @@
 |[Pyro](https://pyro.ai)|<ul><p>Deep Universal Probabilistic Programming.</p><li>[:octocat: Pyro](https://github.com/pyro-ppl/pyro)</li></ul>|
 |[ArviZ: Exploratory analysis of Bayesian models](https://arviz-devs.github.io/arviz/#)|ArviZ is a Python package for exploratory analysis of Bayesian models. Includes functions for posterior analysis, data storage, sample diagnostics, model checking, and comparison.|
 |[PyStan](https://pystan.readthedocs.io/en/latest/)|PyStan is a Python interface to Stan, a package for Bayesian inference.|
+|[StatsForecast](https://github.com/Nixtla/statsforecast)|<ul><li>**StatsForecast** offers a collection of widely used univariate time series forecasting models, including automatic `ARIMA` and `ETS` modeling optimized for high performance using `numba`. It also includes a large battery of benchmarking models.</li><li>[Fast Time Series Forecasting with StatsForecast](https://towardsdatascience.com/fast-time-series-forecasting-with-statsforecast-694d1670a2f3)</li><li>[]()</li><li>[]()</li></ul>|
+
 
 ## GitHub Repositories :octocat:
 
