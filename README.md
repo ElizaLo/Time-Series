@@ -1,6 +1,6 @@
 <img src="https://github.com/ElizaLo/Time-Series/blob/main/header.png" width="900" height="100">
 
-## University courses 👩‍🎓
+## 🎓 University Courses
 
 | Title | Description |
 | :---:         |          :--- |
@@ -12,7 +12,7 @@
   > The Time Series Forecasting course provides students with the foundational knowledge to build and apply time series forecasting models in a variety of business contexts 
 - [Методы анализа и прогнозирования временных рядов](https://openedu.ru/course/urfu/METHODS/)
 
-## Books 📚
+## 📚 Books
 
 - [Forecasting: Principles and Practice](https://otexts.com/fpp2/#) **(3rd ed)** by Rob J Hyndman and George Athanasopoulos, Monash University, Australia
   > This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don’t attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details. 
@@ -74,6 +74,7 @@
 |[ArviZ: Exploratory analysis of Bayesian models](https://arviz-devs.github.io/arviz/#)|ArviZ is a Python package for exploratory analysis of Bayesian models. Includes functions for posterior analysis, data storage, sample diagnostics, model checking, and comparison.|
 |[PyStan](https://pystan.readthedocs.io/en/latest/)|PyStan is a Python interface to Stan, a package for Bayesian inference.|
 |[StatsForecast](https://github.com/Nixtla/statsforecast)|<ul><li>**StatsForecast** offers a collection of widely used univariate time series forecasting models, including automatic `ARIMA` and `ETS` modeling optimized for high performance using `numba`. It also includes a large battery of benchmarking models.</li><li>[Fast Time Series Forecasting with StatsForecast](https://towardsdatascience.com/fast-time-series-forecasting-with-statsforecast-694d1670a2f3)</li><li>[]()</li><li>[]()</li></ul>|
+| Transformers |<ul><li> :page_facing_up: **Article:** [Probabilistic Time Series Forecasting with 🤗 Transformers](https://huggingface.co/blog/time-series-transformers)</li><li> :gear: **Code:** [Google Colaboratory](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/time-series-transformers.ipynb#scrollTo=SxHDCa7vwPBF)</li><li>[]()</li><li>[]()</li></ul>|
 
 
 ## GitHub Repositories :octocat:
