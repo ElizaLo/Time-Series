@@ -1,10 +1,20 @@
 # Orbit
-
 > by UBER
+
+- **Paper:** [Orbit: Probabilistic Forecast with Exponential Smoothing](https://arxiv.org/abs/2004.08492)
 
 Orbit (**O**bject-**OR**iented **B**ayes**I**an **T**ime Series) is a general interface for **Bayesian exponential smoothing model**. The goal of Orbit development team is to create a tool that is easy to use, flexible, interitible, and high performing (fast computation). Under the hood, Orbit uses the probabilistic programming languages (PPL) including but not limited to Stan and Pyro for posterior approximation (i.e, MCMC sampling, SVI). Below is a quadrant chart to position a few time series related packages in our assessment in terms of flexibility and completeness. Orbit is the only tool that allows for easy model specification and analysis while not limiting itself to a small subset of models. For example Prophet has a complete end to end solution but only has one model type and Pyro has total specification model flexibility but does not give an end to end solution. Thus Orbit bridges the gap between business problems and statistical solutions.
 
-- [Orbit: Probabilistic Forecast with Exponential Smoothing](https://arxiv.org/abs/2004.08492) Paper
+## Models
+
+### Local Global Trend (LGT)
+
+Local Global Trend (LGT) was created to be able to work with outliers, anomalies data. This model is devised to forecast non-seasonal time series. This model is particularly useful for short time series. The LGT model is constructed based on Holt’s linear trend method. The model is designed to allow for a more general term of error by allowing for heteroscedasticity and the addition of a constant “global” trend in the model.
+
+In this model taking a two-sided 68% confidence interval (or mean).
+
+> On a normal distribution about 68% of data will be within one standard deviation of the mean
+
 
 ## Stable version
 
