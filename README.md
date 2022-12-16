@@ -22,6 +22,7 @@
 - [Economic Forecasting](https://press.princeton.edu/books/hardcover/9780691140131/economic-forecasting) by Graham Elliott and Allan Timmermann, 2016
 - [Forecasting Economic Time Series](https://www.amazon.com/Forecasting-Economic-ECONOMETRICS-MATHEMATICAL-ECONOMICS-ebook/dp/B01DY7LSWO) (ECONOMIC THEORY, ECONOMETRICS, AND MATHEMATICAL ECONOMICS) by C. W. J. Granger, 1986
 - [sits: Data Analysis and Machine Learning on Earth Observation Data Cubes with Satellite Image Time Series](https://e-sensing.github.io/sitsbook/)
+- [Bayesian Time Series Models](https://www.amazon.com/Bayesian-Time-Models-David-Barber/dp/0521196760) by David Barber, A. Taylan Cemgil, Silvia Chiappa
 
 ## YouTube 
 
