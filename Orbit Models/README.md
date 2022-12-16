@@ -1,7 +1,11 @@
 # Orbit
 > by UBER
 
-- **Paper:** [Orbit: Probabilistic Forecast with Exponential Smoothing](https://arxiv.org/abs/2004.08492)
+- 📰 **Paper:** [Orbit: Probabilistic Forecast with Exponential Smoothing](https://arxiv.org/abs/2004.08492)
+- 📄 **Articles:**
+      - [The New Version of Orbit (v1.1) is Released: The Improvements, Design Changes, and Exciting Collaborations](https://www.uber.com/en-UA/blog/the-new-version-of-orbit-v1-1-is-released/)
+- **Implementation:**
+      - [SVI Part I: An Introduction to Stochastic Variational Inference in Pyro](https://pyro.ai/examples/svi_part_i.html)
 
 Orbit (**O**bject-**OR**iented **B**ayes**I**an **T**ime Series) is a general interface for **Bayesian exponential smoothing model**. The goal of Orbit development team is to create a tool that is easy to use, flexible, interitible, and high performing (fast computation). Under the hood, Orbit uses the probabilistic programming languages (PPL) including but not limited to Stan and Pyro for posterior approximation (i.e, MCMC sampling, SVI). Below is a quadrant chart to position a few time series related packages in our assessment in terms of flexibility and completeness. Orbit is the only tool that allows for easy model specification and analysis while not limiting itself to a small subset of models. For example Prophet has a complete end to end solution but only has one model type and Pyro has total specification model flexibility but does not give an end to end solution. Thus Orbit bridges the gap between business problems and statistical solutions.
 
@@ -14,6 +18,11 @@ Local Global Trend (LGT) was created to be able to work with outliers, anomalies
 In this model taking a two-sided 68% confidence interval (or mean).
 
 > On a normal distribution about 68% of data will be within one standard deviation of the mean
+
+### Pyro
+
+- **Imlementation:**
+      - :octocat: [Pyro](https://github.com/pyro-ppl/pyro) 
 
 
 ## Stable version
