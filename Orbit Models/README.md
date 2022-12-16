@@ -9,6 +9,8 @@
 
 Orbit (**O**bject-**OR**iented **B**ayes**I**an **T**ime Series) is a general interface for **Bayesian exponential smoothing model**. The goal of Orbit development team is to create a tool that is easy to use, flexible, interitible, and high performing (fast computation). Under the hood, Orbit uses the probabilistic programming languages (PPL) including but not limited to Stan and Pyro for posterior approximation (i.e, MCMC sampling, SVI). Below is a quadrant chart to position a few time series related packages in our assessment in terms of flexibility and completeness. Orbit is the only tool that allows for easy model specification and analysis while not limiting itself to a small subset of models. For example Prophet has a complete end to end solution but only has one model type and Pyro has total specification model flexibility but does not give an end to end solution. Thus Orbit bridges the gap between business problems and statistical solutions.
 
+Orbit is also computationally efficient. Proposed models outperform the baseline time series models consistently in terms of SMAPE metrics.
+
 ## Models
 
 ### Local Global Trend (LGT)
@@ -45,6 +47,12 @@ It also supports the following sampling methods for model estimation:
 3. Variational Inference (VI) as a hybrid-sampling method on approximate distribution
 
 Orbit enables the easy decomposition of a KPI time series into **trend**, **seasonality**, and **marketing channels effects**. This decomposition enables unbiased forecasting and dynamic insights, including cost curves and ROAS of marketing channels.
+
+## Conclusions
+
+### How can we improve model?
+
+Most time series models (classic and the one we use Bayesian) do real-time calculations and forecasting based on the received data. The only way to improve the accuracy of such models with our data is to increase the amount of input data (series/sequence).If we save and feed in more data each year, the model will iteratively learn from real-time data and make more accurate predictions. Also, we can do interpolation because it works well and increases the frequency of data.
 
 ### Installation
 
