@@ -148,3 +148,83 @@ Let us now have a look at **_Table 2_**. We also have here two cases and as you 
 # 📰 Articles
 
 - [Time Series Forecast Error Metrics You Should Know](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
+- [Choosing the correct error metric: MAPE vs. sMAPE](https://towardsdatascience.com/choosing-the-correct-error-metric-mape-vs-smape-5328dec53fac)
+
+---
+
+# 💠 Measures
+
+## 🔹 Percentage of Correct Direction (PCD)
+
+**PCD measures the proportion of time steps where the predicted direction _(e.g., increase or decrease)_ matches the actual direction.** It is useful when the direction of the predicted values is more important than the magnitude of the errors.
+
+The resulting boolean values are then converted to `1` for **True (correct direction)** and `0` for **False (incorrect direction)**.
+
+```python
+# Calculate Percentage of Correct Direction (PCD) for each row
+df['PCD'] = (df['Actual'].diff() > 0) == (df['Predicted'].diff() > 0)
+
+# Convert boolean values to 1 for True and 0 for False
+df['PCD'] = df['PCD'].astype(int)
+
+# Calculate PCD for the whole dataset
+overall_pcd = df['PCD'].sum() / len(df) * 100
+
+# Display the updated DataFrame with PCD column
+print(df)
+
+# Display the overall PCD for the whole dataset
+print('Overall PCD:', overall_pcd)
+```
+
+## 🔹 Uncertainty coefficient, Theil's U
+
+The term **“U statistic”** can have several meanings:
+
+- Unbiased (U) statistics
+- Mann Whitney U Statistic
+- U statistic in L-estimators
+- Theil’s U
+
+Theil's U statistic compares the root mean squared error of the model predictions to the root mean squared error of a simple benchmark, such as the naive forecast _(e.g., using the previous observation as the prediction)_. It provides a measure of the model's improvement over a naive approach.
+
+Theil proposed two U statistics, used in finance. The first _**U1**_ is a measure of forecast accuracy _(Theil, 1958, pp 31-42)_; The second _**U2**_ is a measure of forecast quality _(Theil, 1966, chapter 2)_.
+
+```python
+# Calculate Theil's U statistic for each row
+df['U'] = np.sqrt(((df['Predicted'] - df['Actual']) ** 2).mean()) / np.sqrt(((df['Actual'].diff()) ** 2).mean())
+```
+
+### 📰 Articles
+
+- [Uncertainty coefficient](https://en.wikipedia.org/wiki/Uncertainty_coefficient) - Wikipedia
+- [U Statistic: Definition, Different Types; Theil’s U](https://www.statisticshowto.com/u-statistic-theils/)
+- [Theil’s U](https://docs.oracle.com/cd/E40248_01/epm.1112/cb_statistical/frameset.htm?ch07s02s03s04.html) - Oracle
+
+## 🔹 Forecast Error Variance Decomposition (FEVD)
+
+FEVD decomposes the variance of the forecast errors into components attributed to different factors, such as model bias, model variance, and random fluctuations. It provides insights into the sources of forecast errors and can help identify areas for improvement in the model.
+
+### 📰 Articles
+
+- [Variance decomposition of forecast errors](https://en.wikipedia.org/wiki/Variance_decomposition_of_forecast_errors)
+- [The Intuition Behind Impulse Response Functions and Forecast Error Variance Decomposition](https://www.aptech.com/blog/the-intuition-behind-impulse-response-functions-and-forecast-error-variance-decomposition/)
+
+## 🔹 Forecast Coverage
+
+Forecast coverage measures the proportion of actual values that fall within a certain prediction interval or range. It can be explained as the percentage of the actual values that are captured within the model's prediction bounds, providing an assessment of the model's reliability in capturing the range of possible outcomes.
+
+```python
+# Calculate Forecast Coverage for each row
+df['Coverage'] = ((df['Actual'] >= df['Predicted - Lower Bound']) &
+                  (df['Actual'] <= df['Predicted - Upper Bound'])).astype(int)
+
+# Calculate Forecast Coverage for the whole dataset
+overall_coverage = df['Coverage'].sum() / len(df) * 100
+
+# Display the updated DataFrame with Coverage column
+print(df)
+
+# Display Forecast Coverage for the whole dataset
+print('Overall Forecast Coverage:', overall_coverage)
+```
