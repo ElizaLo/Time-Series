@@ -14,6 +14,12 @@ The main advantage of scale dependent metrics is that they are usually **easy to
 
 > Please note here that _Hyndman (2006)_ includes Mean Squared Error into a scale-dependent group (claiming that the error is “on the same scale as the data”). However, Mean Squared Error has a dimension of the squared scale/unit. To bring MSE to the data’s unit we need to take the square root which leads to another metric, the RMSE. _(Shcherbakov et al., 2013)_
 
+## 🔹 Mean Error
+
+The mean error is an informal term that usually refers to the average of all the errors in a set. An _“error”_ in this context is an [uncertainty](https://www.statisticshowto.com/uncertainty-in-statistics/) in a measurement, or the difference between the measured value and true/correct value. The more formal term for error is [measurement error](https://www.statisticshowto.com/measurement-error/), also called [observational error](https://www.statisticshowto.com/measurement-error/).
+
+**The mean error usually results in a number that isn’t helpful** because positives and negatives cancel each other out. For example, two errors of +100 and -100 would give a mean error of zero
+
 ## 🔹 Mean Absolute Error (MAE)
 
 <img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/MAE.png" width="304" height="105"/>
@@ -149,6 +155,7 @@ Let us now have a look at **_Table 2_**. We also have here two cases and as you 
 
 - [Time Series Forecast Error Metrics You Should Know](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
 - [Choosing the correct error metric: MAPE vs. sMAPE](https://towardsdatascience.com/choosing-the-correct-error-metric-mape-vs-smape-5328dec53fac)
+- [Types of error](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/types-error#:~:text=Error%20(statistical%20error)%20describes%20the,data%20are%20of%20the%20population.)
 
 ---
 
