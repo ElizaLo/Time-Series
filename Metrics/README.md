@@ -245,6 +245,63 @@ In this example, `sample_size` represents the size of the sample, `standard_devi
 
 # 💠 Measures
 
+## 🔹 Mean directional accuracy (MDA)
+
+**Mean directional accuracy (MDA)**, also known as mean direction accuracy, is a measure of prediction accuracy of a forecasting method in statistics. It compares the forecast direction (upward or downward) to the actual realized direction. 
+
+It is a popular metric for forecasting performance in economics and finance. MDA is used where we are often interested only in the directional movement of variables of interest.
+
+**The formula for calculating the MDA**
+
+MDA measures how often the predicted direction of a time series matches the actual direction of the time series. To calculate MDA, you look at the signs of the differences between consecutive actual values and the signs of the differences between consecutive predicted values. If the signs are the same (i.e., both positive or both negative), that means the predicted direction matches the actual direction. You count how many times this happens, and divide by the total number of possible comparisons (which is one less than the length of the time series, because you can’t compare the first value to anything). This gives you the MDA value, which ranges from 0 to 1, with 1 indicating perfect directional accuracy.
+
+MDA = Number of times the signs of the differences between consecutive actual values are the same as the signs of the differences between consecutive predicted values / (N – 1)
+
+where N is the length of the time series.
+
+In mathematical notation, this can be expressed as:
+
+`MDA = sum(i=2 to N) sign(actual[i] – actual[i-1]) * sign(predicted[i] – predicted[i-1]) / (N – 1)`
+
+where sign(x) returns the sign of x (i.e., -1 if x < 0, 0 if x == 0, and 1 if x > 0).
+
+```python
+import numpy as np
+
+def mda(actual, predicted):
+    """
+    Calculates the Mean Directional Accuracy (MDA) for two time series.
+    
+    Parameters:
+    actual (array-like): The actual values for the time series.
+    predicted (array-like): The predicted values for the time series.
+    
+    Returns:
+    float: The MDA value.
+    """
+    actual = np.array(actual)
+    predicted = np.array(predicted)
+    
+    # calculate the signs of the differences between consecutive values
+    actual_diff = np.diff(actual)
+    actual_signs = np.sign(actual_diff)
+    predicted_diff = np.diff(predicted)
+    predicted_signs = np.sign(predicted_diff)
+    
+    # count the number of times the signs are the same
+    num_correct = np.sum(actual_signs == predicted_signs)
+    
+    # calculate the MDA value
+    mda = num_correct / (len(actual) - 1)
+    
+    return mda
+```
+
+### 📰 Articles
+
+- [Mean directional accuracy](https://en.wikipedia.org/wiki/Mean_directional_accuracy#:~:text=Mean%20directional%20accuracy%20(MDA)%2C,to%20the%20actual%20realized%20direction.), Wikipedia
+- [Mean directional accuracy of time series forecast](https://datasciencestunt.com/mean-directional-accuracy-of-time-series-forecast/)
+
 ## 🔹 Percentage of Correct Direction (PCD)
 
 **PCD measures the proportion of time steps where the predicted direction _(e.g., increase or decrease)_ matches the actual direction.** It is useful when the direction of the predicted values is more important than the magnitude of the errors.
@@ -319,3 +376,7 @@ print(df)
 # Display Forecast Coverage for the whole dataset
 print('Overall Forecast Coverage:', overall_coverage)
 ```
+
+# :octocat: GitHub
+
+- [forecasting_metrics.py](https://gist.github.com/bshishov/5dc237f59f019b26145648e2124ca1c9)
